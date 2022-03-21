@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+
+
+body{
+    background-color: rgb(46, 33, 33);
+    color: bisque;
+    font-family: 'Orbitron', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    height: 70vh;
+}
+.button-div{
+    margin-top: -2rem;
+}
+.clock{
+    font-size: 4rem;
+}
+.button-div button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
